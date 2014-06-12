@@ -1,0 +1,223 @@
+/* sction 0 */
+.section-0 .section-title,
+.section-0 .section-slogan{
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: auto 100%;
+}
+.section-0 .section-title{
+  width: 680px;
+  height: 126px;
+  margin-left: -340px;
+  background-image: url(../images/section0-title.png);
+  border-top: 2px solid rgba(255,255,255, 0.4);
+  border-bottom: 2px solid rgba(255,255,255, 0.4);
+}
+
+.section-0 .section-slogan{
+  width: 450px;
+  height: 40px;
+  margin-left: -225px;
+  margin-top: 150px;
+  background-image: url(../images/section0-slogan.png);
+}
+
+.section-0.current .light-hr{
+  -webkit-animation: light-hr 2s 0s 2 linear;
+     -moz-animation: light-hr 2s 0s 2 linear;
+      -ms-animation: light-hr 2s 0s 2 linear;
+       -o-animation: light-hr 2s 0s 2 linear;
+          animation: light-hr 2s 0s 2 linear;
+}
+.section-0.current .light-hl{
+  -webkit-animation: light-hl 2s 0s 2 linear;
+     -moz-animation: light-hl 2s 0s 2 linear;
+      -ms-animation: light-hl 2s 0s 2 linear;
+       -o-animation: light-hl 2s 0s 2 linear;
+          animation: light-hl 2s 0s 2 linear;
+}
+
+
+.section-0 ul{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  list-style: none;
+  overflow: hidden;
+}
+.section-0 ul li{
+  position: relative;
+  width: 100%;
+  height: 25%;
+}
+.section-0 ul li div{
+  width: 12.5%;
+  height: 100%;
+  float: left;
+}
+
+.section-0 .row1 .col2{
+  -webkit-transition: background-color 1s linear 0s;
+     -moz-transition: background-color 1s linear 0s;
+      -ms-transition: background-color 1s linear 0s;
+       -o-transition: background-color 1s linear 0s;
+          transition: background-color 1s linear 0s;
+}
+.section-0.current .row1 .col2{
+  background-color: rgba(255,255,255,0.05);
+}
+
+.section-0 .row1 .col3{
+  -webkit-transition: background-color 2s linear 0.5s;
+     -moz-transition: background-color 2s linear 0.5s;
+      -ms-transition: background-color 2s linear 0.5s;
+       -o-transition: background-color 2s linear 0.5s;
+          transition: background-color 2s linear 0.5s;
+  background-color: rgba(255,255,255,0.06);
+}
+.section-0.current .row1 .col3{
+  background-color: rgba(255,255,255,0);
+}
+
+.section-0 .row4 .col3{
+  background-color: rgba(255,255,255,0.04);
+}
+/*
+.section-0.current .row4 .col3{
+  background-color: rgba(255,255,255,0.04);
+}
+*/
+.section-0 .row3 .col1{
+  -webkit-transition: background-color 1s linear .5s;
+     -moz-transition: background-color 1s linear .5s;
+      -ms-transition: background-color 1s linear .5s;
+       -o-transition: background-color 1s linear .5s;
+          transition: background-color 1s linear .5s;
+}
+.section-0.current .row3 .col1{
+  background-color: rgba(255,255,255,0.06);
+}
+
+.section-0 .row2 .col5{
+  -webkit-transition: background-color 1s linear .7s;
+     -moz-transition: background-color 1s linear .7s;
+      -ms-transition: background-color 1s linear .7s;
+       -o-transition: background-color 1s linear .7s;
+          transition: background-color 1s linear .7s;
+  background-color: 0.06;
+}
+.section-0.current .row2 .col5{
+  background-color: rgba(255,255,255,0.01);
+}
+
+.section-0 .row2 .col6{
+  -webkit-transition: background-color 1s linear .7s;
+     -moz-transition: background-color 1s linear .7s;
+      -ms-transition: background-color 1s linear .7s;
+       -o-transition: background-color 1s linear .7s;
+          transition: background-color 1s linear .7s;
+}
+.section-0.current .row2 .col6{
+  background-color: rgba(255,255,255,0.08);
+}
+
+.section-0 .row3 .col6{
+  -webkit-transition: background-color 1s linear 0.3s;
+     -moz-transition: background-color 1s linear 0.3s;
+      -ms-transition: background-color 1s linear 0.3s;
+       -o-transition: background-color 1s linear 0.3s;
+          transition: background-color 1s linear 0.3s;
+  background-color: rgba(255,255,255,0.05);
+}
+.section-0.current .row3 .col6{
+  background-color: rgba(255,255,255,0);
+}
+
+.section-0 .row3 .col4{
+  -webkit-transition: background-color 1s linear 0.3s;
+     -moz-transition: background-color 1s linear 0.3s;
+      -ms-transition: background-color 1s linear 0.3s;
+       -o-transition: background-color 1s linear 0.3s;
+          transition: background-color 1s linear 0.3s;
+}
+.section-0.current .row3 .col4{
+  background-color: rgba(255,255,255,0.08);
+}
+
+.section-0 .row2 .col1{
+  background-color: rgba(255,255,255,0.02);
+}
+
+.section-0 .row1 .col5{
+  -webkit-transition: background-color 1s linear 1.5s;
+     -moz-transition: background-color 1s linear 1.5s;
+      -ms-transition: background-color 1s linear 1.5s;
+       -o-transition: background-color 1s linear 1.5s;
+          transition: background-color 1s linear 1.5s;
+}
+.section-0.current .row1 .col5{
+  background-color: rgba(255,255,255,0.04);
+}
+
+.section-0 .row2 .col3{
+  -webkit-transition: background-color 1s linear 1.7s;
+     -moz-transition: background-color 1s linear 1.7s;
+      -ms-transition: background-color 1s linear 1.7s;
+       -o-transition: background-color 1s linear 1.7s;
+          transition: background-color 1s linear 1.7s;
+}
+.section-0.current .row2 .col3{
+  background-color: rgba(255,255,255,0.08);
+}
+
+.section-0 .row2 .col4{
+  -webkit-transition: background-color 1s linear 2.5s;
+     -moz-transition: background-color 1s linear 2.5s;
+      -ms-transition: background-color 1s linear 2.5s;
+       -o-transition: background-color 1s linear 2.5s;
+          transition: background-color 1s linear 2.5s;
+}
+.section-0.current .row2 .col4{
+  background-color: rgba(255,255,255,0.02);
+}
+
+.section-0 .row4 .col5{
+  -webkit-transition: background-color 1s linear 3s;
+     -moz-transition: background-color 1s linear 3s;
+      -ms-transition: background-color 1s linear 3s;
+       -o-transition: background-color 1s linear 3s;
+          transition: background-color 1s linear 3s;
+}
+.section-0.current .row4 .col5{
+  background-color: rgba(255,255,255,0.04);
+}
+
+.section-0 .row3 .col7{
+  -webkit-transition: background-color 1s linear 3s;
+     -moz-transition: background-color 1s linear 3s;
+      -ms-transition: background-color 1s linear 3s;
+       -o-transition: background-color 1s linear 3s;
+          transition: background-color 1s linear 3s;
+}
+.section-0.current .row3 .col7{
+  background-color: rgba(255,255,255,0.04);
+}
+
+.section-0 .row3 .col2{
+  background-color: rgba(255,255,255,0.02);
+}
+
+.section-0 .row3 .col5{
+  -webkit-transition: background-color 1s linear 3.5s;
+     -moz-transition: background-color 1s linear 3.5s;
+      -ms-transition: background-color 1s linear 3.5s;
+       -o-transition: background-color 1s linear 3.5s;
+          transition: background-color 1s linear 3.5s;
+}
+.section-0.current .row3 .col5{
+  background-color: rgba(255,255,255,0.02);
+}

@@ -1,0 +1,92 @@
+  .light-point{
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    -webkit-border-radius: 10px;
+       -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+         -o-border-radius: 10px;
+            border-radius: 10px;
+    background-color: #FFF;
+    filter: alpha(opacity=0);
+    opacity: 0;
+   /* -webkit-animation: light-point 3s 3s 0 ease-out;  */
+  }
+  
+ .light-point-lt{
+    left: -5px;
+    top: -5px;
+  }
+  
+  .light-point-tr{
+    right: -5px;
+    top: -5px;
+  }
+  
+  .light-point-lb{
+    left: -5px;
+    bottom: -5px;
+  }
+  
+  .light-point-rb{
+    right: -5px;
+    bottom: -5px;
+  }
+  
+  @-webkit-keyframes light-point{
+    0%{
+      opacity: 0;
+      box-shadow: 0 0 10px 0px rgba(255, 255, 255, 0); 
+    }
+    50%{
+      opacity: 0.8;
+      box-shadow: 0 0 10px 5px rgba(255, 255, 255, 1); 
+    }
+    100%{
+      opacity: 0;
+      box-shadow: 0 0 10px 0px rgba(255, 255, 255, 0); 
+    }
+  }
+  @-moz-keyframes light-point{
+    0%{
+      opacity: 0;
+      box-shadow: 0 0 10px 0px rgba(255, 255, 255, 0); 
+    }
+    50%{
+      opacity: 0.8;
+      box-shadow: 0 0 10px 5px rgba(255, 255, 255, 1); 
+    }
+    100%{
+      opacity: 0;
+      box-shadow: 0 0 10px 0px rgba(255, 255, 255, 0); 
+    }
+  }
+  @-o-keyframes light-point{
+    0%{
+      opacity: 0;
+      box-shadow: 0 0 10px 0px rgba(255, 255, 255, 0); 
+    }
+    50%{
+      opacity: 0.8;
+      box-shadow: 0 0 10px 5px rgba(255, 255, 255, 1); 
+    }
+    100%{
+      opacity: 0;
+      box-shadow: 0 0 10px 0px rgba(255, 255, 255, 0); 
+    }
+  }
+  @keyframes light-point{
+    0%{
+      opacity: 0;
+      box-shadow: 0 0 10px 0px rgba(255, 255, 255, 0); 
+    }
+    50%{
+      opacity: 0.8;
+      box-shadow: 0 0 10px 5px rgba(255, 255, 255, 1); 
+    }
+    100%{
+      opacity: 0;
+      box-shadow: 0 0 10px 0px rgba(255, 255, 255, 0); 
+    }
+  }
+ 

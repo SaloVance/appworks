@@ -1,0 +1,33 @@
+
+.ie .create-app{
+  border: 1px solid rgb(255,255,255);
+}
+
+.ie .section-0 .section-title{
+  border-top: 1px solid rgb(255,255,255);
+  border-bottom: 1px solid rgb(255,255,255);
+}
+
+.ie .section-1 .phone1 .group1{
+  top: 10px;
+}
+.ie .section-1 .phone1 .group2{
+  left: 49px;
+}
+.ie .section-1 .phone1 .group3{
+  left: 49px;
+  top: 93px;
+}
+.ie .section-1 .phone1 .group4{
+  top: 134px;
+}
+.ie .section-1 .phone2{
+  margin-left: 320px;
+}
+
+.ie .section-2 .phone2{
+  display: none;
+}
+.ie .section-2 .phone3{
+  margin-left: 180px;
+}

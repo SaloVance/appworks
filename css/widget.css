@@ -1,0 +1,137 @@
+.logo{
+  position: absolute;
+  width: 150px;
+  height: 40px;
+  top: 3%;
+  left: 3%;
+  background-image: url(../images/logo.png);
+}
+
+.home-mouse {
+  position: absolute;
+  width: 27px;
+  height: 15px;
+  bottom: 20px;
+  left: 50%;
+  margin-left: -13.5px;
+  background-image: url(../images/icon.png);
+  cursor: pointer;
+}
+.home-mouse:hover{
+  -webkit-transform: scale(1.2, 1.2);
+     -moz-transform: scale(1.2, 1.2);
+      -ms-transform: scale(1.2, 1.2);
+       -o-transform: scale(1.2, 1.2);
+          transform: scale(1.2, 1.2);
+}
+
+.create-app{
+  position: relative;
+  display: block;
+  width: 180px;
+  height: 40px;
+  top: 70%;
+  left: 50%;
+  margin-left: -90px;
+  border: 1px solid rgba(255,255,255, 0.4); 
+  background-image: url(../images/create-app.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-color: rgba(255,255,255, 0.2);
+  background-size: auto 75%;
+  -webkit-border-radius: 20px;
+     -moz-border-radius: 20px;
+      -ms-border-radius: 20px;
+       -o-border-radius: 20px;
+          border-radius: 20px;
+}
+.create-app:hover{
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.55);
+}
+
+.goodbye-ie{
+  position: absolute;
+  background-color: white;
+  left:0;
+  bottom: 0;
+  width:100%;
+  height: 244px;
+  z-index: 100;
+}
+.goodbye-ie p{
+  font-size: 18px;
+  text-align: center;
+  margin:20px;
+}
+.goodbye-ie .browers {
+  margin:0 auto 20px;
+  width:411px;
+}
+.goodbye-ie .browers li{
+  float:left;
+  padding:20px;
+  text-align: center;
+}
+.goodbye-ie .browers a{
+  display: block;
+  width: 96px;
+  height: 96px;
+  background-image: url(../images/brower-icon.png);
+  background-repeat: no-repeat;
+}
+.goodbye-ie .chrome a{
+  background-position: -15px -38px;
+}
+.goodbye-ie .firefox a{
+  background-position: -140px -38px;
+}
+.goodbye-ie .ie9 a{
+  background-position: -265px -38px;
+}
+#closeBrowserTip{
+  position: absolute;
+  top: 20px;
+  right: 60px;
+  font-size: 21px;
+}
+
+.back-top{
+  position: absolute;
+  width: 87px;
+  height: 88px;
+  top: 0;
+  right: 0;
+  background-image: url(../images/corner.png);
+  background-repeat: no-repeat;
+  display: none;
+}
+.indicator {
+  position: absolute;
+  margin-top: -175px;
+  right: 2%;
+  top: 50%;
+}
+.indicator li {
+  cursor: pointer;
+  height: 50px;
+  margin-bottom: 20px;
+  width: 20px;
+}
+.indicator li:hover div{
+  box-shadow: 0 0 20px 2px rgb(255, 255, 255); 
+}
+.indicator div {
+  height: 100%;
+  margin: 0 auto;
+  width: 1px;
+  background-color: rgb(255,255,255);
+  background-color: rgba(255,255,255, 0.9);
+  -webkit-border-radius: 2px;
+     -moz-border-radius: 2px;
+      -ms-border-radius: 2px;
+       -o-border-radius: 2px;
+          border-radius: 2px;
+}
+.indicator li.current div {
+  border: 1px solid #FFF;
+}

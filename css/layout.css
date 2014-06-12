@@ -1,0 +1,110 @@
+.viewport,
+.container,
+.section{
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.container{
+  height: auto;
+  overflow: visible;
+}
+.container.transform{
+  -webkit-transition: all 0.8s ease 0s;
+     -moz-transition: all 0.8s ease 0s;
+      -ms-transition: all 0.8s ease 0s;
+       -o-transition: all 0.8s ease 0s;
+          transition: all 0.8s ease 0s;
+}
+
+.section{
+   display: none; 
+}
+
+.section-angle,
+.section-body{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.section-angle{
+  top: 100%;
+  
+  -webkit-transform-origin: 0% 0%;
+     -moz-transform-origin: 0% 0%;
+      -ms-transform-origin: 0% 0%;
+       -o-transform-origin: 0% 0%;
+          transform-origin: 0% 0%;
+}
+
+.section-body{
+  overflow: hidden;
+}
+
+/* section 0 */
+.section-0{
+  background-image: url(../images/section0.jpg);
+  background-color: #2996D7;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 100% auto;
+}
+
+
+/* section 1 */
+.section-1 {
+  background-color: #3d475a;
+}
+.section-1 .section-angle{
+  background-color: #ff5d43;
+  
+  -webkit-transform: skewY(-7deg);
+     -moz-transform: skewY(-7deg);
+      -ms-transform: skewY(-7deg);
+       -o-transform: skewY(-7deg);
+          transform: skewY(-7deg);
+}
+
+/* section 2 */
+.section-2 {
+  background-color: #ff5d43;
+}
+.section-2 .section-angle{
+  background-color: #28d5b9;
+
+  -webkit-transform: skewY(4deg);
+     -moz-transform: skewY(4deg);
+      -ms-transform: skewY(4deg);
+       -o-transform: skewY(4deg);
+          transform: skewY(4deg);
+  
+  -webkit-transform-origin: 100% 0%;
+     -moz-transform-origin: 100% 0%;
+      -ms-transform-origin: 100% 0%;
+       -o-transform-origin: 100% 0%;
+          transform-origin: 100% 0%;
+}
+
+/* section 3 */
+.section-3 {
+  background-color: #28d5b9;
+}
+.section-3 .section-angle{
+  background-color: #ffbf43;
+  
+  -webkit-transform: skewY(-5deg);
+     -moz-transform: skewY(-5deg);
+      -ms-transform: skewY(-5deg);
+       -o-transform: skewY(-5deg);
+          transform: skewY(-5deg);
+}
+
+/* section 4 */
+.section-4 {
+  background-color: #ffbf43;
+}

@@ -1,0 +1,31 @@
+/* =Reset
+-------------------------------------------------------------- */
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{ margin:0; padding:0; outline:0; font-size:100%; font: inherit; vertical-align:baseline;}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section { display:block;}
+address, caption, cite, code, dfn,em, strong, i, th, var, optgroup { font-style: normal;  font-weight: normal;}
+h1, h2, h3, h4, h5, h6,abbr,acronym{ font-weight: normal;}
+input,button,textarea,select,optgroup,option{ font-family: inherit; font-size: inherit; font-style: inherit; font-weight: inherit;}
+input,button,textarea,select { font-size: 100%;}
+input[type="text"],input[type="password"],textarea{ outline-style:none; -webkit-appearance:none;}
+textarea{resize:none;}
+ol,ul{ list-style: none;}
+table{ border-collapse: collapse; border-spacing: 0;}
+caption,th{ text-align: left;}
+a,ins{ text-decoration: none;}
+a{ outline:none;color:#555;}
+a:visited,a:active{ text-decoration:none;color:#555; background-color: transparent;}
+/*a:active{ text-decoration:underline;}*/
+blockquote,q{ quotes: none;}
+:focus{ outline:none;}
+img{ border:none;}
+blockquote:before,blockquote:after,q:before,q:after{ content: ''; content: none;}
+/* =Global
+------------------------------------------------------------------*/
+body{min-width: 800px; min-height: 500px; font-family: "Microsoft YaHei", "Î¢ÈíÑÅºÚ", Tahoma, Verdana, "ËÎÌå"; color:#333;}
+html,body{height: 100%;}
+body{
+  font: 14px/1.5 STHeiti,Microsoft YaHei,SimSun,Arial;
+  position: relative;
+}
+.clearfix:after { content:" "; display:block; height:0; clear:both; visibility:hidden;}
+.clearfix { zoom:1;}
